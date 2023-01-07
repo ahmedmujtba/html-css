@@ -1,17 +1,31 @@
 body {
-  background-color: #87cefa;
+  background-color: beige;
 }
 h1 {
-  color: yellow;
+  color: black;
   font-size: 40px;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 a {
-  color: yellow;
+  color: black;
   font-size: 40px;
   font-family: "Times New Roman", Times, serif;
 }
 ul {
-  border: 4px solid crimson;
+  /* border: 4px solid green; */
+  border-bottom: 4px solid skyblue;
+  border-left: 6px dotted skyblue;
+}
+p {
+  color: black;
+  text-align: left;
+  line-height: 20px;
+  letter-spacing: 2px;
+  column-count: 2;
+  column-gap: 60px;
+}
+li {
+  list-style-type: square;
+  text-shadow: 6px 6p yellow;
 }
