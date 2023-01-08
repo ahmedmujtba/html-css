@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: rgb(244, 244, 224);
 }
 h1 {
   color: black;
@@ -27,5 +27,6 @@ p {
 }
 li {
   list-style-type: square;
-  text-shadow: 6px 6p yellow;
+  /* text-shadow: 6px 6p yellow; */
+  text-shadow: 2px 2px #e9e9e9;
 }
