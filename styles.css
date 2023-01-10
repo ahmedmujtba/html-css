@@ -41,3 +41,10 @@ div {
   margin: 20px;
   padding: 20px;
 }
+.joinus {
+  color: blue;
+}
+.vision.mission {
+  border: 2px dashed cornflowerblue;
+  color: red;
+}
