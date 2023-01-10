@@ -41,10 +41,22 @@ div {
   margin: 20px;
   padding: 20px;
 }
-.joinus {
+/* .joinus {
   color: blue;
 }
 .vision.mission {
   border: 2px dashed cornflowerblue;
   color: red;
+}
+#aboutus {
+  background-color: antiquewhite;
+  padding: 10px;
+} */
+div p {
+  background-color: aquamarine;
+  color: blue;
+}
+/* descendant selector - white space means test class within a div tag. no space means div tag of class "test"*/
+div .test {
+  color: blueviolet;
 }
