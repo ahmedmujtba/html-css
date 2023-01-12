@@ -60,3 +60,22 @@ div p {
 div .test {
   color: blueviolet;
 }
+/* attribute selector */
+a[href] {
+  background-color: rgb(38, 0, 255);
+}
+a[href*="wolverton"] {
+  background-color: dodgerblue;
+  color: bisque;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* a[href*="html"] {
+  color: blanchedalmond;
+  border: 2px solid rgb(18, 55, 175);
+} */
+a[href$="html"] {
+  color: rgb(114, 245, 250);
+  border: 2px dotted dodgerblue;
+}
