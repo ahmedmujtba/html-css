@@ -17,14 +17,14 @@ ul {
   border-bottom: 4px solid skyblue;
   border-left: 6px dotted skyblue;
 }
-p {
+/* p {
   color: black;
   text-align: left;
   line-height: 20px;
   letter-spacing: 2px;
   column-count: 2;
   column-gap: 60px;
-}
+} */
 li {
   list-style-type: square;
   /* text-shadow: 6px 6p yellow; */
@@ -35,31 +35,31 @@ span {
   margin: 20px;
   padding: 20px;
 }
-div {
-  /* display: inline; */
+/* div {
+  
   border: 2px solid crimson;
   margin: 20px;
   padding: 20px;
-}
+} */
 /* .joinus {
   color: blue;
 }
 .vision.mission {
   border: 2px dashed cornflowerblue;
   color: red;
-}
-#aboutus {
+}*/
+/* #aboutus {
   background-color: antiquewhite;
   padding: 10px;
 } */
-div p {
+/* div p {
   background-color: aquamarine;
   color: blue;
-}
+} */
 /* descendant selector - white space means test class within a div tag. no space means div tag of class "test"*/
-div .test {
+/* div .test {
   color: blueviolet;
-}
+} */
 /* attribute selector */
 a[href] {
   background-color: rgb(38, 0, 255);
@@ -78,4 +78,14 @@ a[href*="wolverton"] {
 a[href$="html"] {
   color: rgb(114, 245, 250);
   border: 2px dotted dodgerblue;
+}
+#aboutus {
+  color: slateblue;
+  border: 2px solid dodgerblue;
+  margin: 4px;
+  font-weight: bold;
+}
+p {
+  margin: inherit;
+  border: inherit;
 }
