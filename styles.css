@@ -1,7 +1,10 @@
 header {
   position: relative;
-  left: 600px;
+  left: 500px;
   top: 200px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
 }
 .main {
   position: relative;
@@ -10,8 +13,8 @@ header {
 .main img {
   max-width: 250px;
   position: relative;
-  right: 200px;
-  top: 80px;
+  right: 100px;
+  top: 30px;
 }
 .welcome {
   position: absolute;
@@ -19,11 +22,34 @@ header {
 .main-nav {
   position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
   background-color: skyblue;
   text-align: center;
   padding: 20px;
+  white-space: nowrap;
 }
 .main-nav li {
   list-style: none;
   display: inline;
+  line-height: normal;
+  padding: 10px 20px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 25%;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
 }
